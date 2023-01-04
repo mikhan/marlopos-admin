@@ -1,0 +1,16 @@
+{
+  "name": "marlopos",
+  "version": "1.0.0",
+  "description": "Marlopos Travel Agency",
+  "scripts": {},
+  "author": {
+    "name": "Jorge Rojas López",
+    "email": "mikhan_@hotmail.com"
+  },
+  "homepage": "https://www.marlopossinaloa.com.mx",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikhan/marlopos.git"
+  }
+}
