@@ -1,16 +1,29 @@
 {
-  "name": "marlopos",
+  "name": "marlopos-admin",
   "version": "1.0.0",
-  "description": "Marlopos Travel Agency",
-  "scripts": {},
+  "description": "Marlopos Travel Agency - Admin",
+  "scripts": {
+    "start": "CONFIG_PATH=\"config.js\" npx -- directus start",
+    "dev": "CONFIG_PATH=\"config.js\" nodenv --exec npx -- directus start"
+  },
   "author": {
     "name": "Jorge Rojas López",
     "email": "mikhan_@hotmail.com"
   },
-  "homepage": "https://www.marlopossinaloa.com.mx",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mikhan/marlopos.git"
+    "url": "https://github.com/mikhan/marlopos-admin.git"
+  },
+  "dependencies": {
+    "directus": "^9.22.1",
+    "directus-extension-group-modal-interface": "^1.2.0",
+    "directus-extension-tags-m2m-interface": "^0.8.0",
+    "directus-extension-wpslug-interface": "^1.1.0",
+    "pg": "^8.8.0",
+    "sharp": "^0.31.3"
+  },
+  "devDependencies": {
+    "node-env-run": "^4.0.2"
   }
 }
