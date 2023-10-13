@@ -16,7 +16,7 @@
     "url": "https://github.com/mikhan/marlopos-admin.git"
   },
   "dependencies": {
-    "directus": "^10.5.3",
+    "directus": "^10.6.3",
     "directus-extension-group-modal-interface": "^1.2.0",
     "directus-extension-tags-m2m-interface": "^0.8.0",
     "directus-extension-wpslug-interface": "^1.1.0",
@@ -25,6 +25,6 @@
   "devDependencies": {
     "blurhash": "^2.0.5",
     "node-env-run": "^4.0.2",
-    "sharp": "^0.32.5"
+    "sharp": "^0.32.6"
   }
 }
