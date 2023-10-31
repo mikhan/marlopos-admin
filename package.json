@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Marlopos Travel Agency - Admin",
   "scripts": {
+    "build": "npm run build --workspaces",
     "start": "directus start",
     "dev": "CONFIG_PATH=\"config.js\" nodenv --exec npx -- directus start"
   },
@@ -15,6 +16,10 @@
     "type": "git",
     "url": "https://github.com/mikhan/marlopos-admin.git"
   },
+  "workspaces": [
+    "packages/endpoints/publish-netlify",
+    "packages/modules/publish-netlify"
+  ],
   "dependencies": {
     "directus": "^10.6.3",
     "directus-extension-group-modal-interface": "^1.2.0",
