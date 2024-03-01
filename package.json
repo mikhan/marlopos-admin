@@ -21,7 +21,7 @@
     "packages/modules/publish-netlify"
   ],
   "dependencies": {
-    "directus": "^10.7.1",
+    "directus": "^10.8.3",
     "directus-extension-group-modal-interface": "^1.2.0",
     "directus-extension-tags-m2m-interface": "^0.8.0",
     "directus-extension-wpslug-interface": "^1.1.0",
